@@ -1,23 +1,80 @@
 aid: aryakanetworks
+
 name: Aryakanetworks
-description: 'Aryakanetworks is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://www.aryaka.com/wp-content/uploads/2025/11/Home-Page-Feature-Image.webp
+
+description: 'Aryaka Networks offers a Unified Secure Access Service Edge (SASE) platform delivered as a service, combining networking and security functions such as SD‑WAN, zero‑trust network access, next‑gen firewall, and multi‑cloud SaaS acceleration. The solution is targeted at enterprise customers seeking to modernize, scale, and secure global WAN connectivity without trade‑offs between performance and protection.'
+
 url: https://raw.githubusercontent.com/api-evangelist/aryakanetworks/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-26 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-26'
+
 modified: '2026-09-26'
+
 tags:
-- Company
-apis: []
+- SASE
+- SD-WAN
+- Network Security
+- Cloud Acceleration
+- Enterprise Networking
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: LLMsTxt
+  url: llms/aryakanetworks-llms.txt
+- type: WellKnown
+  url: well-known/aryakanetworks-well-known.yml
+- type: Hosts
+  url: hosts/aryakanetworks-hosts.yml
+- type: Vendors
+  url: vendors/aryakanetworks-vendors.yml
+- type: TermsOfService
+  url: https://www.aryaka.com/terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://www.aryaka.com/privacy-policy/
+- type: Newsroom
+  url: https://www.aryaka.com/news/
+- type: Leadership
+  url: https://www.aryaka.com/about-us/leadership/
+- type: GettingStarted
+  url: https://www.aryaka.com/get-started/unified-sase/
+- type: Blog
+  url: https://www.aryaka.com/blog/
+- type: Documentation
+  url: https://docs.aryaka.com/
+- type: DomainSecurity
+  url: security/aryakanetworks-domain-security.yml
 - type: Website
-  url: https://equityzen.com/company/aryakanetworks
+  url: https://www.aryaka.com
+
+apis: []
+
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: Documentation at https://docs.aryaka.com is rendered via JavaScript, preventing machine-readable contract extraction.
+  evidence:
+    - url: https://docs.aryaka.com
+      status: 200
+  checked: 2026-09-26
+x-enrichment:
+  date: '2026-09-26'
+  status: enriched
+  artifacts_added: 10
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local

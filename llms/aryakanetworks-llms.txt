@@ -1,0 +1,15 @@
+# Refined for Cloud
+
+LLM-optimized index. Confluence: add `.md` to page URLs (e.g. `/space/TEAM/426300.md`). Space `.md` URLs return a page index. Refined landing pages: `/page/{slug}.md`. Site overview: `/index.md`.
+
+## Site structure
+
+- [Refined Site](https://docs.aryaka.com/index.md) — Site overview
+
+  - [Knowledge Base](https://docs.aryaka.com/space/KNOW/) — Space key: `KNOW`
+    - Index: [KNOW.md](https://docs.aryaka.com/space/KNOW.md)
+  - [Video Tutorials](https://docs.aryaka.com/space/VW/) — Space key: `VW`
+    - Index: [VW.md](https://docs.aryaka.com/space/VW.md)
+
+---
+Generated: 2026-09-26T09:23:07.257Z
