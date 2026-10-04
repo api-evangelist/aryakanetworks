@@ -1,0 +1,21 @@
+{
+  "repo": "aryakanetworks",
+  "feeds": [
+    {
+      "source": "https://www.aryaka.com/get-started/unified-sase/",
+      "feed_url": "https://www.aryaka.com/get-started/unified-sase/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    },
+    {
+      "source": "https://www.aryaka.com/get-started/unified-sase/feed/",
+      "feed_url": "https://www.aryaka.com/get-started/unified-sase/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-10-03T12:30:02Z"
+}
