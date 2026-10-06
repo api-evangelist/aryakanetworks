@@ -19,7 +19,7 @@ specificationVersion: '0.20'
 
 created: '2026-09-26'
 
-modified: '2026-09-26'
+modified: '2026-10-06'
 
 tags:
 - SASE
@@ -35,6 +35,8 @@ maintainers:
   email: info@apis.io
 
 common:
+- url: https://www.aryaka.com/blog/feed/
+  type: BlogRSS
 - type: LLMsTxt
   url: llms/aryakanetworks-llms.txt
 - type: WellKnown
